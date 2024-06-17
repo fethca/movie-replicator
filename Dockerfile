@@ -19,7 +19,6 @@ FROM base as source
 COPY pnpm-lock.yaml ./
 COPY package.json ./
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile --production=false
-COPY types ./types
 COPY src ./src
 
 #####  Dependencies stage ######
