@@ -1,0 +1,9 @@
+{
+  "include": ["src", "tests", "vitest.config.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext",
+    "module": "nodenext",
+    "strict": true
+  }
+}
