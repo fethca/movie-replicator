@@ -38,7 +38,7 @@ export const settings = {
   },
 }
 
-const messages = [
+export const messages = [
   'replication_job',
   'format_movie',
   'init_db',
